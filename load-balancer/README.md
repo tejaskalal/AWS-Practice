@@ -23,6 +23,25 @@ Let's check Apache2 and Nginx before creating load balancer , are they accessibl
 <img width="1854" height="992" alt="Screenshot 2026-04-24 221812" src="https://github.com/user-attachments/assets/28fbe3da-89bc-4cbc-bd05-91bdf101e9c1" />
 <br/><br/>
 <img width="1850" height="1001" alt="Screenshot 2026-04-24 221801" src="https://github.com/user-attachments/assets/8a68b47b-a94a-47d6-8822-2346d4792ccb" />
+<br/><br/>
+We created a target group in Amazon Web Services to group and manage our backend servers (EC2 instances) that will receive traffic from the load balancer. It is used so the load balancer knows where to send requests and can perform health checks to ensure traffic is only routed to healthy servers. This helps improve availability, reliability, and proper traffic distribution in the system.
+<br/><br/>
+<img width="1845" height="829" alt="Screenshot 2026-04-24 223706" src="https://github.com/user-attachments/assets/e7fa8530-b665-4f4c-97b2-d70ad881dbfa" />
+<br/><br/>
+We created an Application Load Balancer in Amazon Web Services to distribute incoming HTTP/HTTPS traffic across multiple servers based on request details like URL or path. It helps ensure high availability, better performance, and fault tolerance by routing traffic only to healthy instances in the target group, making the application more scalable and reliable.
+<br/><br/>
+<img width="1851" height="841" alt="Screenshot 2026-04-24 224114" src="https://github.com/user-attachments/assets/1145a799-1ed5-4c15-b1ce-29a55be4b86b" />
+<br/><br/>
+The result for both servers shows that the Application Load Balancer in Amazon Web Services is successfully distributing traffic between them. When users access the application, requests are routed to different servers (like Nginx and Apache), and both respond correctly. This confirms that the setup is working properly, providing load distribution, high availability, and better performance.
+<br/><br/>
+<img width="1849" height="840" alt="Screenshot 2026-04-24 225134" src="https://github.com/user-attachments/assets/77520231-8d45-4d74-9cfb-e7c719c49c35" />
+<br/><br/>
+<img width="1858" height="969" alt="Screenshot 2026-04-24 225323" src="https://github.com/user-attachments/assets/943611df-8f94-425f-8e09-2d87b5ab208a" />
+
+
+
+
+
 
 
 
