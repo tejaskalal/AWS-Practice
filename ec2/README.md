@@ -15,6 +15,14 @@ An AMI (Amazon Machine Image) in Amazon Web Services is a pre configured templat
 Here we are using ubuntu,
 <br/><br/>
 <img width="1852" height="834" alt="Screenshot 2026-04-26 161405" src="https://github.com/user-attachments/assets/d0223f03-bf24-432b-8001-b6253adb5921" />
+<br/><br/>
+An instance type in Amazon Web Services defines the size and power of your EC2 server, including CPU, RAM, and storage. It simply decides how strong or fast your virtual machine will be.And we are creating .pem key , .pem key (Privacy Enhanced Mail key) in Amazon Web Services is a private security file used to securely connect to your EC2 instance
+<br/><br/>
+<img width="1847" height="835" alt="Screenshot 2026-04-26 161423" src="https://github.com/user-attachments/assets/b33a7caf-23e3-4787-9da3-f7b3c1f9c0fe" />
+<br/><br/>
+
+
+
 
 
 
