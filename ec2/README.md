@@ -20,6 +20,11 @@ An instance type in Amazon Web Services defines the size and power of your EC2 s
 <br/><br/>
 <img width="1847" height="835" alt="Screenshot 2026-04-26 161423" src="https://github.com/user-attachments/assets/b33a7caf-23e3-4787-9da3-f7b3c1f9c0fe" />
 <br/><br/>
+SSH (Secure Shell) is a protocol used to securely connect to and control a remote server over the internet. In Amazon Web Services, it’s commonly used to log into EC2 instances using a .pem key.
+<br/><br/>
+<img width="1851" height="842" alt="Screenshot 2026-04-26 161442" src="https://github.com/user-attachments/assets/6386dab7-8337-4573-a947-64c06ae145a8" />
+<br/><br/>
+
 
 
 
