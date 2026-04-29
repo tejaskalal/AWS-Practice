@@ -49,6 +49,14 @@ Created an Internet Gateway (IGW) and attached it to VPC-1 to enable internet ac
 Updated the Route Table by adding a route (0.0.0.0/0) pointing to the Internet Gateway.
 <br/>
 <img width="1848" height="837" alt="Screenshot 2026-04-28 232950" src="https://github.com/user-attachments/assets/58a328e1-d18f-4660-8079-00e7779bb23e" />
+<br/><br/>
+Launched an EC2 instance in VPC-1 using t3.micro instance type with auto-assign public IP enabled for internet access.
+<br/>
+<img width="1845" height="829" alt="Screenshot 2026-04-28 233153" src="https://github.com/user-attachments/assets/f8110921-3831-48fd-a9ed-340cf61b878e" />
+<br/>
+<img width="1854" height="830" alt="Screenshot 2026-04-28 233234" src="https://github.com/user-attachments/assets/fbea55c2-7c80-4376-9e15-d258e930ed59" />
+<br/><br/>
+
 
 
 
