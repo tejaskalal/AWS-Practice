@@ -87,6 +87,12 @@ Launched an EC2 instance in VPC-1 using t3.micro instance type with auto-assign 
 <br/>
 <img width="1856" height="840" alt="Screenshot 2026-04-28 235827" src="https://github.com/user-attachments/assets/7c88afef-413a-46ce-abf4-bddb52e82303" />
 <br/><br/>
+Initiated a VPC Peering Connection from VPC-1 (requester) to my-vpc-2 (accepter) and successfully accepted the request.
+<br/>
+<img width="1855" height="835" alt="Screenshot 2026-04-29 001047" src="https://github.com/user-attachments/assets/c0dc4095-43c4-432a-81ee-08f11048c302" />
+<br/>
+<img width="1859" height="848" alt="Screenshot 2026-04-29 001100" src="https://github.com/user-attachments/assets/5a3412c5-6c6c-4271-a10f-5db10b5b6ebf" />
+
 
 
 
