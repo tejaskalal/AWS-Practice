@@ -22,6 +22,7 @@ VPC Peering is a networking feature that allows two Virtual Private Clouds (VPCs
 
 #### Project Architecture
 <img width="2558" height="896" alt="architecutre" src="https://github.com/user-attachments/assets/fdfe2551-b52c-4315-972d-888f88d74de9" />
+
 #### Project Overview
 Created a Virtual Private Cloud (VPC-1) in AWS with CIDR block 10.0.0.0/16 to define the private network range.
 <img width="1847" height="817" alt="Screenshot 2026-04-28 193635" src="https://github.com/user-attachments/assets/723a429d-68a1-41f7-825f-bd987b04edd9" />
