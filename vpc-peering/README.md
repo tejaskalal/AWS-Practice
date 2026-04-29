@@ -92,6 +92,17 @@ Initiated a VPC Peering Connection from VPC-1 (requester) to my-vpc-2 (accepter)
 <img width="1855" height="835" alt="Screenshot 2026-04-29 001047" src="https://github.com/user-attachments/assets/c0dc4095-43c4-432a-81ee-08f11048c302" />
 <br/>
 <img width="1859" height="848" alt="Screenshot 2026-04-29 001100" src="https://github.com/user-attachments/assets/5a3412c5-6c6c-4271-a10f-5db10b5b6ebf" />
+<br/><br/>
+Accepted the VPC Peering Connection request.
+<img width="1866" height="855" alt="Screenshot 2026-04-29 001145" src="https://github.com/user-attachments/assets/5db9af7a-0795-4e78-883e-9021951297d2" />
+<br/><br/>
+Updated route tables in both VPC-1 and my-vpc-2 to enable communication via the peering connection.
+<br/>
+<img width="1855" height="848" alt="Screenshot 2026-04-29 001400" src="https://github.com/user-attachments/assets/d5dd77e8-6858-4ac0-a73d-8dc666a11d0f" />
+<br/>
+<img width="1852" height="831" alt="Screenshot 2026-04-29 001437" src="https://github.com/user-attachments/assets/f176e51d-94a2-4412-99cd-cf7680f69e7a" />
+<br/>
+
 
 
 
