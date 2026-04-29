@@ -102,6 +102,22 @@ Updated route tables in both VPC-1 and my-vpc-2 to enable communication via the 
 <br/>
 <img width="1852" height="831" alt="Screenshot 2026-04-29 001437" src="https://github.com/user-attachments/assets/f176e51d-94a2-4412-99cd-cf7680f69e7a" />
 <br/>
+- Updated security group rules for EC2 instances in both VPCs
+- Allowed inbound traffic from peer VPC CIDR ranges:
+  - my-vpc-2: Allowed 192.168.0.0/16
+  - my-vpc-2: Allowed 10.0.0.0/24
+- Enabled secure communication between instances across VPCs
+
+<img width="1850" height="836" alt="Screenshot 2026-04-29 001825" src="https://github.com/user-attachments/assets/2506ec38-8cf2-4b89-aad4-740facc7376e" />
+<br/>
+<img width="1860" height="824" alt="Screenshot 2026-04-29 001901" src="https://github.com/user-attachments/assets/5e773d27-736d-426f-a62d-3a5d3f6b71e1" />
+<br/>
+Verified successful communication between EC2 instances across my-vpc-1 and my-vpc-2 via VPC Peering using private IPs.
+<br/>
+<img width="1854" height="876" alt="Screenshot 2026-04-29 002023" src="https://github.com/user-attachments/assets/01549189-0008-416f-ac2a-b9f109a2dc9b" />
+<br/>
+<img width="1856" height="847" alt="Screenshot 2026-04-29 002124" src="https://github.com/user-attachments/assets/b107d75e-0c64-4461-9be9-94602875507e" />
+
 
 
 
