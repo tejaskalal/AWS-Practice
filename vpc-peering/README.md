@@ -56,6 +56,44 @@ Launched an EC2 instance in VPC-1 using t3.micro instance type with auto-assign 
 <br/>
 <img width="1854" height="830" alt="Screenshot 2026-04-28 233234" src="https://github.com/user-attachments/assets/fbea55c2-7c80-4376-9e15-d258e930ed59" />
 <br/><br/>
+Created a second VPC (my-vpc-2) with CIDR block 192.168.0.0/24 to define a separate private network.
+<br/>
+<img width="1852" height="850" alt="Screenshot 2026-04-28 234720" src="https://github.com/user-attachments/assets/0e901bfa-efc8-4196-a505-d9a83023dbc5" />
+<br/><br/>
+Created a subnet (vpc2-public-subnet) in my-vpc-2.
+<img width="1853" height="840" alt="Screenshot 2026-04-28 234901" src="https://github.com/user-attachments/assets/2a2c984c-a981-424a-88a3-cd774195b0ef" />
+<br/><br/>
+Created a Route Table named vpc2-route-table in my-vpc-2.
+<br/>
+<img width="1848" height="851" alt="Screenshot 2026-04-28 234939" src="https://github.com/user-attachments/assets/6128134d-25b2-49f6-bbe6-88cca0c9bee9" />
+<br/><br/>
+Created an Internet Gateway (vpc2-IGW) for my-vpc-2.
+<br/>
+<img width="1840" height="827" alt="Screenshot 2026-04-28 235003" src="https://github.com/user-attachments/assets/39ee8a9b-2095-4887-9475-c5960002085c" />
+<br/>
+Attached Internet Gateway for network access to my-vpc-2
+<img width="1851" height="846" alt="Screenshot 2026-04-28 235022" src="https://github.com/user-attachments/assets/e58fd82f-4ca4-4e13-95f9-89674e4162a6" />
+<br/><br/>
+Associated the vpc2-route-table with vpc2-public-subnet
+<br/>
+<img width="1856" height="857" alt="Screenshot 2026-04-28 235117" src="https://github.com/user-attachments/assets/0aee5f44-8e2d-476f-8372-749d5f89e03e" />
+<br/><br/>
+Updated the Route Table by adding a route (0.0.0.0/0) pointing to the Internet Gateway.
+<br/>
+<img width="1856" height="857" alt="Screenshot 2026-04-28 235117" src="https://github.com/user-attachments/assets/91b308e9-7f55-43d4-b0f9-3c20fd11954e" />
+<br/><br/>
+Launched an EC2 instance in VPC-1 using t3.micro instance type with auto-assign public IP enabled for internet access.
+<img width="1849" height="820" alt="Screenshot 2026-04-28 235747" src="https://github.com/user-attachments/assets/09c3f6a5-bf8f-48de-a4d8-00bf01355e80" />
+<br/>
+<img width="1856" height="840" alt="Screenshot 2026-04-28 235827" src="https://github.com/user-attachments/assets/7c88afef-413a-46ce-abf4-bddb52e82303" />
+<br/><br/>
+
+
+
+
+
+
+
 
 
 
