@@ -35,6 +35,23 @@ Created a subnet in VPC-1 with CIDR block 10.0.0.0/24 to segment the network.
 Created a Route Table and associated it with the subnet in VPC-1.
 <br/>
 <img width="1855" height="832" alt="Screenshot 2026-04-28 232630" src="https://github.com/user-attachments/assets/e9811383-8b78-416f-93f6-dee0c4a252c9" />
+<br/><br/>
+Associated the Route Table with the public subnet (vpc1-public-subnet) in VPC-1.
+<br/>
+<img width="1846" height="829" alt="Screenshot 2026-04-28 232749" src="https://github.com/user-attachments/assets/ff09dda5-2087-4691-b36b-48a443a3f03c" />
+<br/><br/>
+Created an Internet Gateway (IGW) and attached it to VPC-1 to enable internet access.
+<br/>
+<img width="1855" height="844" alt="Screenshot 2026-04-28 232832" src="https://github.com/user-attachments/assets/5a6f87e0-0f48-489f-9e48-04491d14a949" />
+<br/>
+<img width="1856" height="839" alt="Screenshot 2026-04-28 232856" src="https://github.com/user-attachments/assets/0ab86bbc-5f0a-418b-8047-28a810ba4a4f" />
+<br/><br/>
+Updated the Route Table by adding a route (0.0.0.0/0) pointing to the Internet Gateway.
+<br/>
+<img width="1848" height="837" alt="Screenshot 2026-04-28 232950" src="https://github.com/user-attachments/assets/58a328e1-d18f-4660-8079-00e7779bb23e" />
+
+
+
 
 
 
