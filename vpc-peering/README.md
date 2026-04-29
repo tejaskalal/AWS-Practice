@@ -21,7 +21,7 @@ VPC Peering is a networking feature that allows two Virtual Private Clouds (VPCs
 - Multi-account architecture in cloud
 
 #### Project Architecture
-<br/><br/>
+<br/>
 <img width="2558" height="896" alt="architecutre" src="https://github.com/user-attachments/assets/fdfe2551-b52c-4315-972d-888f88d74de9" />
 
 
